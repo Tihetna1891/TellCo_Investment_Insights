@@ -13,7 +13,7 @@ import pandas as pd
 @st.cache_data
 def load_data():
     # Load your dataset here (CSV, PostgreSQL query, etc.)
-    data = pd.read_csv("TellCo_Investment_Insights/cropped_file.csv")
+    data = pd.read_csv("cropped_file.csv")
     return data
 
 # Function to handle missing values in the dataset
