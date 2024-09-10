@@ -13,7 +13,7 @@ import psycopg2
 @st.cache_data
 def load_data():
     # Load your dataset here (CSV, PostgreSQL query, etc.)
-    data = pd.read_csv("C:/Users/dell/TellCo_Investment_Insights/telecom_data.csv")
+    data = pd.read_csv("TellCo_Investment_Insights/cropped_file.csv")
     return data
 
 # Function to handle missing values in the dataset
