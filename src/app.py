@@ -1,13 +1,13 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from sklearn.preprocessing import StandardScaler
-from sklearn.cluster import KMeans
-import plotly.express as px
+# import seaborn as sns
+# import matplotlib.pyplot as plt
+# from sklearn.preprocessing import StandardScaler
+# from sklearn.cluster import KMeans
+# import plotly.express as px
 import streamlit as st
 import pandas as pd
-import psycopg2
+# import psycopg2
 
 # Sample function to load data (assuming you're loading data from a CSV)
 @st.cache_data
